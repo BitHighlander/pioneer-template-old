@@ -8181,10 +8181,10 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==
 
-pioneer-react@0.2.15:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/pioneer-react/-/pioneer-react-0.2.15.tgz#a638e1cf27676f774a21149da059def1940aeb79"
-  integrity sha512-LlQ/qbQTOk0kG3mgcicP+TfeiT/FQh4gGhwF117gGnPKCQJGLeFftGmOk3hcUk6LQJNmtx8Ov9kBgs+epPUj2g==
+pioneer-react@0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/pioneer-react/-/pioneer-react-0.2.17.tgz#bc8b4738c7e1716c1728498e5a73c52ba400dfbb"
+  integrity sha512-Mltw3ubfPBvIOM0+DNHjmXxNcmyXh0LWwNavFeX+kRwsZ+rHK9w5mE1Gt6L6mnvwTlMKzTgrrBufoNvrua/i5A==
   dependencies:
     "@chakra-ui/icons" "^2.0.19"
     "@chakra-ui/react" "^2.6.0"
