@@ -2342,10 +2342,10 @@
     stable "^0.1.8"
     typescript "4.6.4"
 
-"@pioneer-sdk/sdk@1.1.138":
-  version "1.1.138"
-  resolved "https://registry.yarnpkg.com/@pioneer-sdk/sdk/-/sdk-1.1.138.tgz#4d3b6664abb2ae66137fb302c7a07cdc39779339"
-  integrity sha512-bfDuapY8+XyhM1i8P1EqR8L/l2TAU5b2ycmsc0liVw0bJc79YcThturvKjWVi0wXVm5sXG/yDnbqAh5DZIUDpA==
+"@pioneer-sdk/sdk@1.1.140":
+  version "1.1.140"
+  resolved "https://registry.yarnpkg.com/@pioneer-sdk/sdk/-/sdk-1.1.140.tgz#9c0419fcd9a5c94b5894d2ba8692be7f7292dfd3"
+  integrity sha512-WpgdV4LNVVsXSKr/WkG200N2xAUFYUJgJ/CJzhbf4I18KQSiWqykzAalHcQzDP+qcSevQsQs3d5+m+WDDED3IQ==
   dependencies:
     "@keepkey/keepkey-sdk" "^0.2.25"
     "@pioneer-platform/loggerdog" "^8.1.27"
@@ -8181,10 +8181,10 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==
 
-pioneer-react@0.2.17:
-  version "0.2.17"
-  resolved "https://registry.yarnpkg.com/pioneer-react/-/pioneer-react-0.2.17.tgz#bc8b4738c7e1716c1728498e5a73c52ba400dfbb"
-  integrity sha512-Mltw3ubfPBvIOM0+DNHjmXxNcmyXh0LWwNavFeX+kRwsZ+rHK9w5mE1Gt6L6mnvwTlMKzTgrrBufoNvrua/i5A==
+pioneer-react@0.2.18:
+  version "0.2.18"
+  resolved "https://registry.yarnpkg.com/pioneer-react/-/pioneer-react-0.2.18.tgz#733200dd02f212dcf1406b615ed2359708b84512"
+  integrity sha512-YpWWOTHBY4H/awOFIB0q9S3NJwCn2SOOaDTkwwz0OvPKegTf1Kr1TFVmmIi56QWVPUpxL/ayDF2GYP7xER8ZZQ==
   dependencies:
     "@chakra-ui/icons" "^2.0.19"
     "@chakra-ui/react" "^2.6.0"
@@ -8196,7 +8196,7 @@ pioneer-react@0.2.17:
     "@keepkey/hdwallet-keepkey-rest" "^1.40.29"
     "@keepkey/keepkey-sdk" "^0.2.48"
     "@pioneer-platform/pioneer-client" "^9.0.6"
-    "@pioneer-sdk/sdk" "1.1.138"
+    "@pioneer-sdk/sdk" "1.1.140"
     "@shapeshiftoss/hdwallet-core" "^1.50.0"
     "@shapeshiftoss/hdwallet-metamask" "^1.50.0"
     "@shapeshiftoss/hdwallet-native" "^1.50.3"
