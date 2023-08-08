@@ -22,7 +22,7 @@ const Home = () => {
       <br />
       Blockchain Context: {blockchainContext?.name}
       <br />
-      Address: {pubkeyContext?.master || pubkeyContext?.pubkey}
+      Address: {address}
       <br />
       <SomeText />
       <SomeImage />
