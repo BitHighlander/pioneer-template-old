@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CTASection from "./components/CTASection";
 import SomeImage from "./components/SomeImage";
 import SomeText from "./components/SomeText";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import { usePioneer } from "pioneer-react";
 
 const Home = () => {
   const { state } = usePioneer();
-  const { api, app, context, assetContext, blockchainContext, pubkeyContext } = state;
+  const { context, assetContext, blockchainContext, pubkeyContext } = state;
   const [address, setAddress] = useState("");
 
   useEffect(() => {
-    console.log("pubkeyContext: ", pubkeyContext);
     setAddress(pubkeyContext.master || pubkeyContext.pubkey);
   }, [pubkeyContext]);
 
