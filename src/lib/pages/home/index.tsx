@@ -8,12 +8,14 @@ import { usePioneer } from "pioneer-react";
 
 const Home = () => {
   const { state } = usePioneer();
-  const { context, assetContext, blockchainContext, pubkeyContext } = state;
+  const { app, context, assetContext, blockchainContext, pubkeyContext } = state;
   const [address, setAddress] = useState("");
 
   useEffect(() => {
-    setAddress(pubkeyContext.master || pubkeyContext.pubkey);
-  }, [pubkeyContext]);
+    const addressContext = app.pubkeyContext.master || app.pubkeyContext.pubkey;
+    setAddress(addressContext);
+  }, [app, app?.pubkeyContext, app?.pubkeyContext.address, pubkeyContext]);
+
 
   return (
     <div>
