@@ -1,32 +1,30 @@
+import React from "react";
 import { Box, Flex, HStack, Text } from "@chakra-ui/react";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import { Pioneer } from "pioneer-react";
 import { Link as RouterLink } from "react-router-dom";
 
-const PROJECT_NAME = "*Your Project name here*";
-// eslint-disable-next-line no-console
+const PROJECT_NAME = "*your dApp name here!*";
+
 const HeaderNew = () => {
   return (
     <Flex
       as="header"
-      width="full"
-      alignSelf="flex-start"
-      gridGap={2}
-      alignItems="center"
+      alignItems="center" // Align items vertically
+      justifyContent="space-between" // Spread elements horizontally
       p={5}
-      bg="gray.900" // change background color
-      borderBottom="1px solid" // add a border at the bottom
-      borderColor="gray.200" // set border color
+      bg="gray.900"
+      borderBottom="1px solid" // Set border style
+      borderColor="gray.200"
     >
       <HStack spacing={8}>
         <RouterLink to="/">
-          <Box>
-            <Text fontSize="3xl">{PROJECT_NAME}</Text>
-          </Box>
+          <Text fontSize="3xl" color="white">
+            {" "}
+            {/* Set text color */}
+            {PROJECT_NAME}
+          </Text>
         </RouterLink>
       </HStack>
-      <br />
       <Pioneer />
     </Flex>
   );
