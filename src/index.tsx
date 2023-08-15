@@ -14,7 +14,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <>
-    <ColorModeScript initialColorMode={theme.config?.initialColorMode} />
     <App />
   </>
 );
