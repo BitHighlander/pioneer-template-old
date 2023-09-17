@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { ChakraProvider, useColorMode } from "@chakra-ui/react";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import { PioneerProvider } from "pioneer-react";
 import { BrowserRouter as Router } from "react-router-dom";
