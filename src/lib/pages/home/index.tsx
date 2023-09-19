@@ -20,7 +20,7 @@ import {
   BlockchainSelect,
   WalletSelect,
   // @ts-ignore
-} from "pioneer-react";
+} from "@pioneer-platform/pioneer-react";
 
 const Home = () => {
   const { state } = usePioneer();

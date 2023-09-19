@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, HStack, Text } from "@chakra-ui/react";
-import { Pioneer } from "pioneer-react";
+// @ts-ignore
+import { Pioneer } from "@pioneer-platform/pioneer-react";
 import { Link as RouterLink } from "react-router-dom";
 
 const PROJECT_NAME = "*your dApp name here!*";
