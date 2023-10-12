@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { ChakraProvider, useColorMode } from "@chakra-ui/react";
 // @ts-ignore
-import { PioneerProvider } from "@pioneer-platform/pioneer-react";
+import { PioneerProvider } from "@pioneer-sdk/pioneer-react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Layout from "lib/layout";

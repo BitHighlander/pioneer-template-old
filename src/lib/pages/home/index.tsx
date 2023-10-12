@@ -20,7 +20,7 @@ import {
   BlockchainSelect,
   WalletSelect,
   // @ts-ignore
-} from "@pioneer-platform/pioneer-react";
+} from "@pioneer-sdk/pioneer-react";
 
 const Home = () => {
   const { state } = usePioneer();
@@ -32,7 +32,7 @@ const Home = () => {
 
   useEffect(() => {
     console.log("pubkeyContext: ", pubkeyContext);
-    setAddress(pubkeyContext.master || pubkeyContext.pubkey);
+    setAddress(pubkeyContext?.master || pubkeyContext?.pubkey);
   }, [pubkeyContext]);
 
   const openModal = (type: any) => {
